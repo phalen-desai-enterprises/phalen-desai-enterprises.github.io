@@ -11,6 +11,8 @@ $(document).ready(function() {
     return (currentH < closeH) || (currentH == closeH && currentM < closeM);
   }
   
+  var geo = navigator.geolocation;
+  
   // Open time
   var openHour = 8;
   var openMinute = 0;
